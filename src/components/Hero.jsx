@@ -3,8 +3,8 @@ import React from 'react';
 function Hero() {
   return (
     <div className="lg:flex items-center mt-[100px] md:mx-[120px] mx-[28px] lg:space-x-[30px]">
-      <div className="lg:w-5/12 space-y-6 max-w-full text-center lg:text-start">
-        <h1 className="text-4xl font-bold leading-tight sm:text-5xl">
+      <div className="lg:w-5/12 space-y-6 max-w-full text-start sm:text-center lg:text-start">
+        <h1 className="text-[38px] font-bold leading-tight sm:text-5xl text-center lg:text-start">
           Manage Payroll Like an Expert
         </h1>
         <p className="text-lg text-gray-600 text-justify sm:text-center lg:text-start">
