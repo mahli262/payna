@@ -2,16 +2,16 @@ import React from 'react'
 
 function Brand() {
   return (
-    <div className='lg:flex mx-[120px] justify-between mt-[70px] items-center'>
+    <div className='lg:flex md:mx-[120px] lg:justify-between mt-[70px] place-items-center mx-[28px]'>
       <div>
-        <h2>Trusted by <br /> Global Companies</h2>
+        <p className='text-base font-semibold text-center lg:text-start mb-3 lg:mb-0'>Trusted by Global Companies</p>
       </div>
-      <div className='flex space-x-[50px]'>
-        <img src="/assets/logo/apple-11 1.png" className='max-h-[30px]' alt="" />
-        <img src="/assets/logo/google-2015 1.png" className='max-h-[30px]' alt="" />
-        <img src="/assets/logo/Group 13.png" className='max-h-[30px]' alt="" />
-        <img src="/assets/logo/slack-2 1.png" className='max-h-[30px]' alt="" />
-        <img src="/assets/logo/spotify-1 1.png" className='max-h-[30px]' alt="" />
+      <div className='md:flex md:justify-center md:gap-x-[50px] space-y-3 place-items-center'>
+        <img src="/assets/logo/apple-11 1.png" className='md:max-h-[30px] mx-auto max-h-[56px]' alt="" />
+        <img src="/assets/logo/google-2015 1.png" className='md:max-h-[30px] mx-auto max-h-[56px]' alt="" />
+        <img src="/assets/logo/Group 13.png" className='md:max-h-[30px] mx-auto max-h-[56px]' alt="" />
+        <img src="/assets/logo/slack-2 1.png" className='md:max-h-[30px] mx-auto max-h-[56px]' alt="" />
+        <img src="/assets/logo/spotify-1 1.png" className='md:max-h-[30px] mx-auto max-h-[56px]' alt="" />
       </div>
     </div>
   )
