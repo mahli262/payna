@@ -9,8 +9,8 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Brand/>
-      <Features/>
+      {/* <Brand/>
+      <Features/> */}
     </div>
   );
 }

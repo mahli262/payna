@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='flex justify-between mx-[120px] max-w-full mt-[40px] max-h-[48px] items-center'>
+    <div className='hidden justify-between mx-[120px] max-w-full mt-[40px] max-h-[48px] items-center lg:block lg:flex' >
         <a href="">
         <img src="../../assets/logo/logo.png" className='max-w-[150px]' alt="" />
         </a>
