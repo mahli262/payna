@@ -1,16 +1,16 @@
 import './App.css';
-import Brand from './components/Brand';
-import Features from './components/Features';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
+import Navbar from './Components/Navbar';
+import Brand from './Section/Brand';
+import Features from './Section/Features';
+import Hero from './Section/Hero';
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <Hero />
       <Brand/>
-      {/* <Features/> */}
+      <Features/>
     </div>
   );
 }
