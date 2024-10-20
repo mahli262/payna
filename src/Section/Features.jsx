@@ -1,4 +1,5 @@
 import React from 'react'
+import Feature from '../Components/Feature'
 
 function Features() {
   return (
@@ -10,8 +11,13 @@ function Features() {
           all of them just for you</p>
         </div>
 
-        <div>
-          <p></p>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-[60px] gap-x-20 mx-7 md:mx-[120px]'>
+          <Feature/>
+          <Feature/>
+          <Feature/>
+          <Feature/>
+          <Feature/>
+          <Feature/>
         </div>
     </div>
   )
