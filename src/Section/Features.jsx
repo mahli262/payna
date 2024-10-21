@@ -1,5 +1,12 @@
 import React from 'react'
 import Feature from '../Components/Feature'
+import {FaRegPaperPlane } from "react-icons/fa";
+import { FiBriefcase, FiGlobe } from "react-icons/fi";
+import { RiWifiOffLine, RiGift2Line } from "react-icons/ri";
+import { MdOutlineViewKanban } from "react-icons/md";
+
+
+
 
 function Features() {
   return (
@@ -11,13 +18,52 @@ function Features() {
           all of them just for you</p>
         </div>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-[60px] gap-x-20 mx-7 md:mx-[120px]'>
-          <Feature/>
-          <Feature/>
-          <Feature/>
-          <Feature/>
-          <Feature/>
-          <Feature/>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:mx-[120px] gap-x-[80px] gap-y-[60px] mx-7 justify-items-stretch'>
+         
+          <Feature
+            Icon={FiBriefcase}
+            iconColor={"#1F7CFF"}
+            feature="Share Inisght"
+            desc="Working together with your
+team to make decisions"
+          />
+          <Feature
+            Icon={FaRegPaperPlane}
+            iconColor={"#F75C4E"}
+            feature="Track Leads"
+            desc="See where your money goes
+and comes in business"
+          />
+          <Feature
+            Icon={RiWifiOffLine}
+            iconColor={"#191046"}
+            feature="Offline Mode"
+            desc="Use the feature while off
+from internet? sure can"
+          />
+          <Feature
+            Icon={MdOutlineViewKanban}
+            iconColor={"#FF1FB3"}
+            feature="Kanban Mode"
+            desc="Organize the report that
+easy to be understand"
+          />
+          <Feature
+            Icon={RiGift2Line}
+            iconColor={"#5C4EF7"}
+            feature="Reward System"
+            desc="Motivate your team working
+harder and receive a gift"
+          />
+          <Feature
+            Icon={FiGlobe}
+            iconColor={"#F7954E"}
+            feature="189 Country"
+            desc="Working together worldwide
+people from anywhere"
+          />
+
+
         </div>
     </div>
   )
