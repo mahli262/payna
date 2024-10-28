@@ -3,7 +3,7 @@ import {FaRegPaperPlane } from "react-icons/fa";
 import { FiBriefcase, FiGlobe } from "react-icons/fi";
 import { RiWifiOffLine, RiGift2Line } from "react-icons/ri";
 import { MdOutlineViewKanban } from "react-icons/md";
-import Feature from '../Components/Feature';
+import Feature from './Feature';
 
 
 
