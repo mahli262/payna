@@ -1,10 +1,10 @@
 import './App.css';
-import Navbar from './Components/Navbar';
 import Brand from './Section/Brand';
 import CTA from './Section/CTA';
 import Features from './Section/Features';
 import Footer from './Section/Footer';
 import Hero from './Section/Hero';
+import Navbar from './Section/Navbar';
 
 function App() {
   return (

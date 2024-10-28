@@ -1,9 +1,9 @@
 import React from 'react'
-import Feature from '../Components/Feature'
 import {FaRegPaperPlane } from "react-icons/fa";
 import { FiBriefcase, FiGlobe } from "react-icons/fi";
 import { RiWifiOffLine, RiGift2Line } from "react-icons/ri";
 import { MdOutlineViewKanban } from "react-icons/md";
+import Feature from '../Components/Feature';
 
 
 
@@ -19,7 +19,6 @@ function Features() {
         </div>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:mx-[120px] gap-x-[80px] gap-y-[60px] mx-7 justify-items-stretch'>
-         
           <Feature
             Icon={FiBriefcase}
             iconColor={"#1F7CFF"}
